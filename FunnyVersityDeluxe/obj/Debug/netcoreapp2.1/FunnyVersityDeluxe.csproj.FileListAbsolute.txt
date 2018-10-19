@@ -1,0 +1,17 @@
+D:\SwitchFully\switchfully-track-dotnet\30-enterprise-software-development-dotnet\30-webservices\codelab02\FunnyVersityDeluxe\FunnyVersityDeluxe\bin\Debug\netcoreapp2.1\FunnyVersityDeluxe.deps.json
+D:\SwitchFully\switchfully-track-dotnet\30-enterprise-software-development-dotnet\30-webservices\codelab02\FunnyVersityDeluxe\FunnyVersityDeluxe\bin\Debug\netcoreapp2.1\FunnyVersityDeluxe.runtimeconfig.json
+D:\SwitchFully\switchfully-track-dotnet\30-enterprise-software-development-dotnet\30-webservices\codelab02\FunnyVersityDeluxe\FunnyVersityDeluxe\bin\Debug\netcoreapp2.1\FunnyVersityDeluxe.runtimeconfig.dev.json
+D:\SwitchFully\switchfully-track-dotnet\30-enterprise-software-development-dotnet\30-webservices\codelab02\FunnyVersityDeluxe\FunnyVersityDeluxe\bin\Debug\netcoreapp2.1\FunnyVersityDeluxe.dll
+D:\SwitchFully\switchfully-track-dotnet\30-enterprise-software-development-dotnet\30-webservices\codelab02\FunnyVersityDeluxe\FunnyVersityDeluxe\bin\Debug\netcoreapp2.1\FunnyVersityDeluxe.pdb
+D:\SwitchFully\switchfully-track-dotnet\30-enterprise-software-development-dotnet\30-webservices\codelab02\FunnyVersityDeluxe\FunnyVersityDeluxe\obj\Debug\netcoreapp2.1\FunnyVersityDeluxe.csprojAssemblyReference.cache
+D:\SwitchFully\switchfully-track-dotnet\30-enterprise-software-development-dotnet\30-webservices\codelab02\FunnyVersityDeluxe\FunnyVersityDeluxe\obj\Debug\netcoreapp2.1\FunnyVersityDeluxe.csproj.CoreCompileInputs.cache
+D:\SwitchFully\switchfully-track-dotnet\30-enterprise-software-development-dotnet\30-webservices\codelab02\FunnyVersityDeluxe\FunnyVersityDeluxe\obj\Debug\netcoreapp2.1\FunnyVersityDeluxe.RazorAssemblyInfo.cache
+D:\SwitchFully\switchfully-track-dotnet\30-enterprise-software-development-dotnet\30-webservices\codelab02\FunnyVersityDeluxe\FunnyVersityDeluxe\obj\Debug\netcoreapp2.1\FunnyVersityDeluxe.RazorAssemblyInfo.cs
+D:\SwitchFully\switchfully-track-dotnet\30-enterprise-software-development-dotnet\30-webservices\codelab02\FunnyVersityDeluxe\FunnyVersityDeluxe\obj\Debug\netcoreapp2.1\FunnyVersityDeluxe.AssemblyInfoInputs.cache
+D:\SwitchFully\switchfully-track-dotnet\30-enterprise-software-development-dotnet\30-webservices\codelab02\FunnyVersityDeluxe\FunnyVersityDeluxe\obj\Debug\netcoreapp2.1\FunnyVersityDeluxe.AssemblyInfo.cs
+D:\SwitchFully\switchfully-track-dotnet\30-enterprise-software-development-dotnet\30-webservices\codelab02\FunnyVersityDeluxe\FunnyVersityDeluxe\obj\Debug\netcoreapp2.1\FunnyVersityDeluxe.RazorTargetAssemblyInfo.cache
+D:\SwitchFully\switchfully-track-dotnet\30-enterprise-software-development-dotnet\30-webservices\codelab02\FunnyVersityDeluxe\FunnyVersityDeluxe\obj\Debug\netcoreapp2.1\FunnyVersityDeluxe.dll
+D:\SwitchFully\switchfully-track-dotnet\30-enterprise-software-development-dotnet\30-webservices\codelab02\FunnyVersityDeluxe\FunnyVersityDeluxe\obj\Debug\netcoreapp2.1\FunnyVersityDeluxe.pdb
+D:\SwitchFully\switchfully-track-dotnet\30-enterprise-software-development-dotnet\30-webservices\codelab02\FunnyVersityDeluxe\FunnyVersityDeluxe\bin\Debug\netcoreapp2.1\FVD.Domain.dll
+D:\SwitchFully\switchfully-track-dotnet\30-enterprise-software-development-dotnet\30-webservices\codelab02\FunnyVersityDeluxe\FunnyVersityDeluxe\bin\Debug\netcoreapp2.1\FVD.Domain.pdb
+D:\SwitchFully\switchfully-track-dotnet\30-enterprise-software-development-dotnet\30-webservices\codelab02\FunnyVersityDeluxe\FunnyVersityDeluxe\obj\Debug\netcoreapp2.1\FunnyVersityDeluxe.csproj.CopyComplete

@@ -1,0 +1,12 @@
+D:\SwitchFully\switchfully-track-dotnet\30-enterprise-software-development-dotnet\30-webservices\codelab02\FunnyVersityDeluxe\FVD.Domain\bin\Debug\netcoreapp2.1\FVD.Domain.deps.json
+D:\SwitchFully\switchfully-track-dotnet\30-enterprise-software-development-dotnet\30-webservices\codelab02\FunnyVersityDeluxe\FVD.Domain\bin\Debug\netcoreapp2.1\FVD.Domain.dll
+D:\SwitchFully\switchfully-track-dotnet\30-enterprise-software-development-dotnet\30-webservices\codelab02\FunnyVersityDeluxe\FVD.Domain\bin\Debug\netcoreapp2.1\FVD.Domain.pdb
+D:\SwitchFully\switchfully-track-dotnet\30-enterprise-software-development-dotnet\30-webservices\codelab02\FunnyVersityDeluxe\FVD.Domain\bin\Debug\netcoreapp2.1\Microsoft.EntityFrameworkCore.dll
+D:\SwitchFully\switchfully-track-dotnet\30-enterprise-software-development-dotnet\30-webservices\codelab02\FunnyVersityDeluxe\FVD.Domain\bin\Debug\netcoreapp2.1\Microsoft.EntityFrameworkCore.xml
+D:\SwitchFully\switchfully-track-dotnet\30-enterprise-software-development-dotnet\30-webservices\codelab02\FunnyVersityDeluxe\FVD.Domain\obj\Debug\netcoreapp2.1\FVD.Domain.csprojAssemblyReference.cache
+D:\SwitchFully\switchfully-track-dotnet\30-enterprise-software-development-dotnet\30-webservices\codelab02\FunnyVersityDeluxe\FVD.Domain\obj\Debug\netcoreapp2.1\FVD.Domain.csproj.CoreCompileInputs.cache
+D:\SwitchFully\switchfully-track-dotnet\30-enterprise-software-development-dotnet\30-webservices\codelab02\FunnyVersityDeluxe\FVD.Domain\obj\Debug\netcoreapp2.1\FVD.Domain.AssemblyInfoInputs.cache
+D:\SwitchFully\switchfully-track-dotnet\30-enterprise-software-development-dotnet\30-webservices\codelab02\FunnyVersityDeluxe\FVD.Domain\obj\Debug\netcoreapp2.1\FVD.Domain.AssemblyInfo.cs
+D:\SwitchFully\switchfully-track-dotnet\30-enterprise-software-development-dotnet\30-webservices\codelab02\FunnyVersityDeluxe\FVD.Domain\obj\Debug\netcoreapp2.1\FVD.Domain.csproj.CopyComplete
+D:\SwitchFully\switchfully-track-dotnet\30-enterprise-software-development-dotnet\30-webservices\codelab02\FunnyVersityDeluxe\FVD.Domain\obj\Debug\netcoreapp2.1\FVD.Domain.dll
+D:\SwitchFully\switchfully-track-dotnet\30-enterprise-software-development-dotnet\30-webservices\codelab02\FunnyVersityDeluxe\FVD.Domain\obj\Debug\netcoreapp2.1\FVD.Domain.pdb
