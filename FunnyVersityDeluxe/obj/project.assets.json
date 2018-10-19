@@ -12240,11 +12240,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SwitchFully\\switchfully-track-dotnet\\30-enterprise-software-development-dotnet\\30-webservices\\codelab02\\FunnyVersityDeluxe\\FunnyVersityDeluxe\\FunnyVersityDeluxe.csproj",
+      "projectUniqueName": "D:\\SwitchFully\\FunnyVersityDeluxe\\FunnyVersityDeluxe\\FunnyVersityDeluxe.csproj",
       "projectName": "FunnyVersityDeluxe",
-      "projectPath": "D:\\SwitchFully\\switchfully-track-dotnet\\30-enterprise-software-development-dotnet\\30-webservices\\codelab02\\FunnyVersityDeluxe\\FunnyVersityDeluxe\\FunnyVersityDeluxe.csproj",
+      "projectPath": "D:\\SwitchFully\\FunnyVersityDeluxe\\FunnyVersityDeluxe\\FunnyVersityDeluxe.csproj",
       "packagesPath": "C:\\Users\\M501MALB\\.nuget\\packages\\",
-      "outputPath": "D:\\SwitchFully\\switchfully-track-dotnet\\30-enterprise-software-development-dotnet\\30-webservices\\codelab02\\FunnyVersityDeluxe\\FunnyVersityDeluxe\\obj\\",
+      "outputPath": "D:\\SwitchFully\\FunnyVersityDeluxe\\FunnyVersityDeluxe\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12264,8 +12264,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "D:\\SwitchFully\\switchfully-track-dotnet\\30-enterprise-software-development-dotnet\\30-webservices\\codelab02\\FunnyVersityDeluxe\\FVD.Domain\\FVD.Domain.csproj": {
-              "projectPath": "D:\\SwitchFully\\switchfully-track-dotnet\\30-enterprise-software-development-dotnet\\30-webservices\\codelab02\\FunnyVersityDeluxe\\FVD.Domain\\FVD.Domain.csproj"
+            "D:\\SwitchFully\\FunnyVersityDeluxe\\FVD.Domain\\FVD.Domain.csproj": {
+              "projectPath": "D:\\SwitchFully\\FunnyVersityDeluxe\\FVD.Domain\\FVD.Domain.csproj"
             }
           }
         }

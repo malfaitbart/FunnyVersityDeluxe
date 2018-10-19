@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SwitchFully\\switchfully-track-dotnet\\30-enterprise-software-development-dotnet\\30-webservices\\codelab02\\FunnyVersityDeluxe\\FVD.Domain\\FVD.Domain.csproj",
+      "projectUniqueName": "D:\\SwitchFully\\FunnyVersityDeluxe\\FVD.Domain\\FVD.Domain.csproj",
       "projectName": "FVD.Domain",
-      "projectPath": "D:\\SwitchFully\\switchfully-track-dotnet\\30-enterprise-software-development-dotnet\\30-webservices\\codelab02\\FunnyVersityDeluxe\\FVD.Domain\\FVD.Domain.csproj",
+      "projectPath": "D:\\SwitchFully\\FunnyVersityDeluxe\\FVD.Domain\\FVD.Domain.csproj",
       "packagesPath": "C:\\Users\\M501MALB\\.nuget\\packages\\",
-      "outputPath": "D:\\SwitchFully\\switchfully-track-dotnet\\30-enterprise-software-development-dotnet\\30-webservices\\codelab02\\FunnyVersityDeluxe\\FVD.Domain\\obj\\",
+      "outputPath": "D:\\SwitchFully\\FunnyVersityDeluxe\\FVD.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

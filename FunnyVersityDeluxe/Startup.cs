@@ -12,6 +12,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using FVD.Domain;
+using FunnyVersityDeluxe.Models;
 namespace FunnyVersityDeluxe
 {
     public class Startup
@@ -28,6 +29,9 @@ namespace FunnyVersityDeluxe
         {
             services.AddDbContext<FVDContext>(opt => opt.UseInMemoryDatabase("FVD_DB"));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
+            services.AddDbContext<FunnyVersityDeluxeContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("FunnyVersityDeluxeContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
