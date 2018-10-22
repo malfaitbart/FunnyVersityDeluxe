@@ -7,6 +7,9 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using NJsonSchema;
+using NSwag.AspNetCore;
+using System.Reflection;
 
 namespace FunnyVersityDeluxe
 {
@@ -28,6 +31,7 @@ namespace FunnyVersityDeluxe
             services.AddSingleton<ProfessorMapper>();
             services.AddSingleton<CourseMapper>();
 
+            services.AddSwagger();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -41,6 +45,12 @@ namespace FunnyVersityDeluxe
             {
                 app.UseHsts();
             }
+
+            app.UseSwaggerUi3WithApiExplorer(settings =>
+            {
+                settings.GeneratorSettings.DefaultPropertyNameHandling =
+                    PropertyNameHandling.CamelCase;
+            });
 
             app.UseHttpsRedirection();
             app.UseMvc();
