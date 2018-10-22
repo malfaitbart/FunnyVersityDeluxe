@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunnyVersityDeluxe", "FunnyVersityDeluxe\FunnyVersityDeluxe.csproj", "{42B60D0F-6AE9-4B8E-A1CC-9189836F677E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunnyVersityDeluxe.API", "FunnyVersityDeluxe\FunnyVersityDeluxe.API.csproj", "{42B60D0F-6AE9-4B8E-A1CC-9189836F677E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FVD.Services", "FVD.Services\FVD.Services.csproj", "{AC5A88E7-586E-446D-AFA1-E0D15E154CDF}"
 EndProject

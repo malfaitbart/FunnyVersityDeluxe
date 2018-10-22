@@ -12258,9 +12258,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SwitchFully\\FunnyVersityDeluxe\\FunnyVersityDeluxe\\FunnyVersityDeluxe.csproj",
-      "projectName": "FunnyVersityDeluxe",
-      "projectPath": "D:\\SwitchFully\\FunnyVersityDeluxe\\FunnyVersityDeluxe\\FunnyVersityDeluxe.csproj",
+      "projectUniqueName": "D:\\SwitchFully\\FunnyVersityDeluxe\\FunnyVersityDeluxe\\FunnyVersityDeluxe.API.csproj",
+      "projectName": "FunnyVersityDeluxe.API",
+      "projectPath": "D:\\SwitchFully\\FunnyVersityDeluxe\\FunnyVersityDeluxe\\FunnyVersityDeluxe.API.csproj",
       "packagesPath": "C:\\Users\\M501MALB\\.nuget\\packages\\",
       "outputPath": "D:\\SwitchFully\\FunnyVersityDeluxe\\FunnyVersityDeluxe\\obj\\",
       "projectStyle": "PackageReference",

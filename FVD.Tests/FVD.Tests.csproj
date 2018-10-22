@@ -17,6 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\FunnyVersityDeluxe\FunnyVersityDeluxe.API.csproj" />
     <ProjectReference Include="..\FVD.Services\FVD.Services.csproj" />
   </ItemGroup>
 
