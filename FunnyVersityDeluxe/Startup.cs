@@ -12,7 +12,10 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using FVD.Domain;
-using FunnyVersityDeluxe.Models;
+using FunnyVersityDeluxe.Controllers.Professors;
+using FVD.Services.Interfaces;
+using FVD.Services;
+
 namespace FunnyVersityDeluxe
 {
     public class Startup
@@ -27,11 +30,10 @@ namespace FunnyVersityDeluxe
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<FVDContext>(opt => opt.UseInMemoryDatabase("FVD_DB"));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            services.AddSingleton<IProfessorService, ProfessorService>();
+            services.AddSingleton<ProfessorMapper>();
 
-            services.AddDbContext<FunnyVersityDeluxeContext>(options =>
-                    options.UseSqlServer(Configuration.GetConnectionString("FunnyVersityDeluxeContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

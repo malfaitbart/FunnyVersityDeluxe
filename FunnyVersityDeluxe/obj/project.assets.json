@@ -4625,6 +4625,19 @@
         "runtime": {
           "bin/placeholder/FVD.Domain.dll": {}
         }
+      },
+      "FVD.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "FVD.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FVD.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FVD.Services.dll": {}
+        }
       }
     }
   },
@@ -12223,11 +12236,16 @@
       "type": "project",
       "path": "../FVD.Domain/FVD.Domain.csproj",
       "msbuildProject": "../FVD.Domain/FVD.Domain.csproj"
+    },
+    "FVD.Services/1.0.0": {
+      "type": "project",
+      "path": "../FVD.Services/FVD.Services.csproj",
+      "msbuildProject": "../FVD.Services/FVD.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
-      "FVD.Domain >= 1.0.0",
+      "FVD.Services >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.NETCore.App >= 2.1.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.1"
@@ -12264,8 +12282,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "D:\\SwitchFully\\FunnyVersityDeluxe\\FVD.Domain\\FVD.Domain.csproj": {
-              "projectPath": "D:\\SwitchFully\\FunnyVersityDeluxe\\FVD.Domain\\FVD.Domain.csproj"
+            "D:\\SwitchFully\\FunnyVersityDeluxe\\FVD.Services\\FVD.Services.csproj": {
+              "projectPath": "D:\\SwitchFully\\FunnyVersityDeluxe\\FVD.Services\\FVD.Services.csproj"
             }
           }
         }

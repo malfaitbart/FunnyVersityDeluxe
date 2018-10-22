@@ -207,6 +207,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "FVD.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/FVD.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FVD.Domain.dll": {}
+        }
       }
     }
   },
@@ -673,10 +683,16 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "FVD.Domain/1.0.0": {
+      "type": "project",
+      "path": "../FVD.Domain/FVD.Domain.csproj",
+      "msbuildProject": "../FVD.Domain/FVD.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "FVD.Domain >= 1.0.0",
       "Microsoft.NETCore.App >= 2.1.0"
     ]
   },
@@ -710,7 +726,11 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\SwitchFully\\FunnyVersityDeluxe\\FVD.Domain\\FVD.Domain.csproj": {
+              "projectPath": "D:\\SwitchFully\\FunnyVersityDeluxe\\FVD.Domain\\FVD.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -7,3 +7,7 @@ D:\SwitchFully\FunnyVersityDeluxe\FVD.Services\obj\Debug\netcoreapp2.1\FVD.Servi
 D:\SwitchFully\FunnyVersityDeluxe\FVD.Services\obj\Debug\netcoreapp2.1\FVD.Services.AssemblyInfo.cs
 D:\SwitchFully\FunnyVersityDeluxe\FVD.Services\obj\Debug\netcoreapp2.1\FVD.Services.dll
 D:\SwitchFully\FunnyVersityDeluxe\FVD.Services\obj\Debug\netcoreapp2.1\FVD.Services.pdb
+D:\SwitchFully\FunnyVersityDeluxe\FVD.Services\bin\Debug\netcoreapp2.1\FVD.Domain.dll
+D:\SwitchFully\FunnyVersityDeluxe\FVD.Services\bin\Debug\netcoreapp2.1\FVD.Domain.pdb
+D:\SwitchFully\FunnyVersityDeluxe\FVD.Services\obj\Debug\netcoreapp2.1\FVD.Services.csproj.CopyComplete
+D:\SwitchFully\FunnyVersityDeluxe\FVD.Services\bin\Debug\netcoreapp2.1\Microsoft.EntityFrameworkCore.xml

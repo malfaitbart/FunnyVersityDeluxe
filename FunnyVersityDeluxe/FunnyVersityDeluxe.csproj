@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FVD.Domain\FVD.Domain.csproj" />
+    <ProjectReference Include="..\FVD.Services\FVD.Services.csproj" />
   </ItemGroup>
 
 </Project>

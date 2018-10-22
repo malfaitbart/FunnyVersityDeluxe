@@ -24,7 +24,7 @@
     ".NETCoreApp,Version=v2.1": {
       "FunnyVersityDeluxe/1.0.0": {
         "dependencies": {
-          "FVD.Domain": "1.0.0",
+          "FVD.Services": "1.0.0",
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.NETCore.App": "2.1.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.1.1"
@@ -519,6 +519,17 @@
         },
         "compile": {
           "FVD.Domain.dll": {}
+        }
+      },
+      "FVD.Services/1.0.0": {
+        "dependencies": {
+          "FVD.Domain": "1.0.0"
+        },
+        "runtime": {
+          "FVD.Services.dll": {}
+        },
+        "compile": {
+          "FVD.Services.dll": {}
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -3648,6 +3659,11 @@
       "hashPath": "system.linq.parallel.4.3.0.nupkg.sha512"
     },
     "FVD.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FVD.Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

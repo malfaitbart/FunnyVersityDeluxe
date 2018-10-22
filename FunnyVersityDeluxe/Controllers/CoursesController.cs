@@ -1,126 +1,130 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using FVD.Domain;
-using FunnyVersityDeluxe.Models;
+﻿//using System;
+//using System.Collections.Generic;
+//using System.Linq;
+//using System.Threading.Tasks;
+//using Microsoft.AspNetCore.Http;
+//using Microsoft.AspNetCore.Mvc;
+//using Microsoft.EntityFrameworkCore;
+//using FVD.Domain;
+//using FunnyVersityDeluxe.Models;
 
-namespace FunnyVersityDeluxe.Controllers
-{
-    [Route("api/[controller]")]
-    [ApiController]
-    public class CoursesController : ControllerBase
-    {
-        private readonly FunnyVersityDeluxeContext _context;
+//namespace FunnyVersityDeluxe.Controllers
+//{
+//    [Route("api/[controller]")]
+//    [ApiController]
+//    public class CoursesController : ControllerBase
+//    {
+//        private readonly FunnyVersityDeluxeContext _context;
 
-        public CoursesController(FunnyVersityDeluxeContext context)
-        {
-            _context = context;
-        }
+//        public CoursesController(FunnyVersityDeluxeContext context)
+//        {
+//            _context = context;
+//        }
 
-        // GET: api/Courses
-        [HttpGet]
-        public IEnumerable<Course> GetCourse()
-        {
-            return _context.Course;
-        }
+//        // GET: api/Courses
+//        [HttpGet]
+//        public IEnumerable<Course> GetCourse()
+//        {
+//            return _context.Course;
+//        }
 
-        // GET: api/Courses/5
-        [HttpGet("{id}")]
-        public async Task<IActionResult> GetCourse([FromRoute] int id)
-        {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
+//        // GET: api/Courses/5
+//        [HttpGet("{id}")]
+//        public async Task<IActionResult> GetCourse([FromRoute] int id)
+//        {
+//            if (!ModelState.IsValid)
+//            {
+//                return BadRequest(ModelState);
+//            }
 
-            var course = await _context.Course.FindAsync(id);
+//            var course = await _context.Course.FindAsync(id);
 
-            if (course == null)
-            {
-                return NotFound();
-            }
+//            if (course == null)
+//            {
+//                return NotFound();
+//            }
 
-            return Ok(course);
-        }
+//            return Ok(course);
+//        }
 
-        // PUT: api/Courses/5
-        [HttpPut("{id}")]
-        public async Task<IActionResult> PutCourse([FromRoute] int id, [FromBody] Course course)
-        {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
+//        // PUT: api/Courses/5
+//        [HttpPut("{id}")]
+//        public async Task<IActionResult> PutCourse([FromRoute] int id, [FromBody] Course course)
+//        {
+//            if (!ModelState.IsValid)
+//            {
+//                return BadRequest(ModelState);
+//            }
 
-            if (id != course.ID)
-            {
-                return BadRequest();
-            }
+//            if (id != course.ID)
+//            {
+//                return BadRequest();
+//            }
 
-            _context.Entry(course).State = EntityState.Modified;
+//            _context.Entry(course).State = EntityState.Modified;
 
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!CourseExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
+//            try
+//            {
+//                await _context.SaveChangesAsync();
+//            }
+//            catch (DbUpdateConcurrencyException)
+//            {
+//                if (!CourseExists(id))
+//                {
+//                    return NotFound();
+//                }
+//                else
+//                {
+//                    throw;
+//                }
+//            }
 
-            return NoContent();
-        }
+//            return NoContent();
+//        }
 
-        // POST: api/Courses
-        [HttpPost]
-        public async Task<IActionResult> PostCourse([FromBody] Course course)
-        {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
+//        // POST: api/Courses
+//        [HttpPost]
+//        public async Task<IActionResult> PostCourse([FromBody] Course course)
+//        {
+//            if (!ModelState.IsValid)
+//            {
+//                return BadRequest(ModelState);
+//            }
+//            if(course.Name == null)
+//            {
+//                return BadRequest(ModelState);
+//            }
 
-            _context.Course.Add(course);
-            await _context.SaveChangesAsync();
+//            _context.Course.Add(course);
+//            await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetCourse", new { id = course.ID }, course);
-        }
+//            return CreatedAtAction("GetCourse", new { id = course.ID }, course);
+//        }
 
-        // DELETE: api/Courses/5
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteCourse([FromRoute] int id)
-        {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
+//        // DELETE: api/Courses/5
+//        [HttpDelete("{id}")]
+//        public async Task<IActionResult> DeleteCourse([FromRoute] int id)
+//        {
+//            if (!ModelState.IsValid)
+//            {
+//                return BadRequest(ModelState);
+//            }
 
-            var course = await _context.Course.FindAsync(id);
-            if (course == null)
-            {
-                return NotFound();
-            }
+//            var course = await _context.Course.FindAsync(id);
+//            if (course == null)
+//            {
+//                return NotFound();
+//            }
 
-            _context.Course.Remove(course);
-            await _context.SaveChangesAsync();
+//            _context.Course.Remove(course);
+//            await _context.SaveChangesAsync();
 
-            return Ok(course);
-        }
+//            return Ok(course);
+//        }
 
-        private bool CourseExists(int id)
-        {
-            return _context.Course.Any(e => e.ID == id);
-        }
-    }
-}
+//        private bool CourseExists(int id)
+//        {
+//            return _context.Course.Any(e => e.ID == id);
+//        }
+//    }
+//}
