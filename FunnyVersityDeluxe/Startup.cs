@@ -1,20 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using FunnyVersityDeluxe.Controllers.Courses;
+using FunnyVersityDeluxe.Controllers.Professors;
+using FVD.Services;
+using FVD.Services.Interfaces;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
-using FVD.Domain;
-using FunnyVersityDeluxe.Controllers.Professors;
-using FVD.Services.Interfaces;
-using FVD.Services;
 
 namespace FunnyVersityDeluxe
 {
@@ -32,7 +24,9 @@ namespace FunnyVersityDeluxe
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.AddSingleton<IProfessorService, ProfessorService>();
+            services.AddSingleton<ICourseService, CourseService>();
             services.AddSingleton<ProfessorMapper>();
+            services.AddSingleton<CourseMapper>();
 
         }
 
