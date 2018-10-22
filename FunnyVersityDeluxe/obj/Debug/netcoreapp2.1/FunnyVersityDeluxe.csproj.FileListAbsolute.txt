@@ -21,6 +21,8 @@ D:\SwitchFully\FunnyVersityDeluxe\FunnyVersityDeluxe\bin\Debug\netcoreapp2.1\Fun
 D:\SwitchFully\FunnyVersityDeluxe\FunnyVersityDeluxe\bin\Debug\netcoreapp2.1\FunnyVersityDeluxe.dll
 D:\SwitchFully\FunnyVersityDeluxe\FunnyVersityDeluxe\bin\Debug\netcoreapp2.1\FunnyVersityDeluxe.pdb
 D:\SwitchFully\FunnyVersityDeluxe\FunnyVersityDeluxe\bin\Debug\netcoreapp2.1\FVD.Domain.dll
+D:\SwitchFully\FunnyVersityDeluxe\FunnyVersityDeluxe\bin\Debug\netcoreapp2.1\FVD.Services.dll
+D:\SwitchFully\FunnyVersityDeluxe\FunnyVersityDeluxe\bin\Debug\netcoreapp2.1\FVD.Services.pdb
 D:\SwitchFully\FunnyVersityDeluxe\FunnyVersityDeluxe\bin\Debug\netcoreapp2.1\FVD.Domain.pdb
 D:\SwitchFully\FunnyVersityDeluxe\FunnyVersityDeluxe\obj\Debug\netcoreapp2.1\FunnyVersityDeluxe.csprojAssemblyReference.cache
 D:\SwitchFully\FunnyVersityDeluxe\FunnyVersityDeluxe\obj\Debug\netcoreapp2.1\FunnyVersityDeluxe.csproj.CoreCompileInputs.cache
@@ -32,5 +34,3 @@ D:\SwitchFully\FunnyVersityDeluxe\FunnyVersityDeluxe\obj\Debug\netcoreapp2.1\Fun
 D:\SwitchFully\FunnyVersityDeluxe\FunnyVersityDeluxe\obj\Debug\netcoreapp2.1\FunnyVersityDeluxe.csproj.CopyComplete
 D:\SwitchFully\FunnyVersityDeluxe\FunnyVersityDeluxe\obj\Debug\netcoreapp2.1\FunnyVersityDeluxe.dll
 D:\SwitchFully\FunnyVersityDeluxe\FunnyVersityDeluxe\obj\Debug\netcoreapp2.1\FunnyVersityDeluxe.pdb
-D:\SwitchFully\FunnyVersityDeluxe\FunnyVersityDeluxe\bin\Debug\netcoreapp2.1\FVD.Services.dll
-D:\SwitchFully\FunnyVersityDeluxe\FunnyVersityDeluxe\bin\Debug\netcoreapp2.1\FVD.Services.pdb
