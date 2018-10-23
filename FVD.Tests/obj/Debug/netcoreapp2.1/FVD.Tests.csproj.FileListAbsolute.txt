@@ -6,8 +6,10 @@ D:\SwitchFully\FunnyVersityDeluxe\FVD.Tests\bin\Debug\netcoreapp2.1\FVD.Tests.ru
 D:\SwitchFully\FunnyVersityDeluxe\FVD.Tests\bin\Debug\netcoreapp2.1\FVD.Tests.runtimeconfig.dev.json
 D:\SwitchFully\FunnyVersityDeluxe\FVD.Tests\bin\Debug\netcoreapp2.1\FVD.Tests.dll
 D:\SwitchFully\FunnyVersityDeluxe\FVD.Tests\bin\Debug\netcoreapp2.1\FVD.Tests.pdb
+D:\SwitchFully\FunnyVersityDeluxe\FVD.Tests\bin\Debug\netcoreapp2.1\FunnyVersityDeluxe.API.dll
 D:\SwitchFully\FunnyVersityDeluxe\FVD.Tests\bin\Debug\netcoreapp2.1\FVD.Domain.dll
 D:\SwitchFully\FunnyVersityDeluxe\FVD.Tests\bin\Debug\netcoreapp2.1\FVD.Services.dll
+D:\SwitchFully\FunnyVersityDeluxe\FVD.Tests\bin\Debug\netcoreapp2.1\FunnyVersityDeluxe.API.pdb
 D:\SwitchFully\FunnyVersityDeluxe\FVD.Tests\bin\Debug\netcoreapp2.1\FVD.Services.pdb
 D:\SwitchFully\FunnyVersityDeluxe\FVD.Tests\bin\Debug\netcoreapp2.1\FVD.Domain.pdb
 D:\SwitchFully\FunnyVersityDeluxe\FVD.Tests\obj\Debug\netcoreapp2.1\FVD.Tests.csprojAssemblyReference.cache

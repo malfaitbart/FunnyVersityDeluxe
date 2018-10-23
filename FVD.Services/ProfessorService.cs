@@ -1,5 +1,6 @@
 ﻿using FVD.Domain;
 using FVD.Services.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -13,9 +14,9 @@ namespace FVD.Services
             //this.dB_Context = dB_Context;
             professorsList = new List<Professor>()
             {
-                new Professor(1, "Prof", "Barabas"),
-                new Professor(2, "Prof", "Gobelijn"),
-                new Professor(3, "Prof", "Zonnebloem")
+                new Professor("Prof", "Barabas"),
+                new Professor("Prof", "Gobelijn"),
+                new Professor("Prof", "Zonnebloem")
             };
         }
 
@@ -39,7 +40,7 @@ namespace FVD.Services
             var newID = professorsList.Count()+1;
             if (newID == 0) { newID = 1; }
 
-            var newProfessor = new Professor(newID, firstName, lastName);
+            var newProfessor = new Professor(firstName, lastName);
             professorsList.Add(newProfessor);
 
             return newProfessor;
@@ -54,9 +55,9 @@ namespace FVD.Services
 
         public Professor UpdateProfessor(int id, string firstName, string lastName)
         {
-            var professor = professorsList.Where(prof => prof.ID == id).First();
-            professorsList[id - 1] = new Professor(id, firstName, lastName);
-            return professorsList[id - 1];
+            var professorIndex = professorsList.FindIndex(prof => prof.ID == id);
+            professorsList[professorIndex]= new Professor(id, firstName, lastName);
+            return professorsList[professorIndex];
         }
     }
 }

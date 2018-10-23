@@ -10,10 +10,12 @@ namespace FunnyVersityDeluxe.Controllers.Professors
     {
         public ProfessorDTO ToDTO(Professor professor)
         {
-            var professorDTO = new ProfessorDTO();
-            professorDTO.ID = professor.ID;
-            professorDTO.FirstName = professor.FirstName;
-            professorDTO.LastName = professor.LastName;
+            var professorDTO = new ProfessorDTO
+            {
+                ID = professor.ID,
+                FirstName = professor.FirstName,
+                LastName = professor.LastName
+            };
 
             return professorDTO;
         }

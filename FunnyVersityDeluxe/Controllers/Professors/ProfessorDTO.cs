@@ -1,4 +1,6 @@
-﻿namespace FunnyVersityDeluxe.Controllers.Professors
+﻿using System;
+
+namespace FunnyVersityDeluxe.Controllers.Professors
 {
     public class ProfessorDTO
     {
