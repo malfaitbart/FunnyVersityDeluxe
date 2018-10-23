@@ -1,5 +1,6 @@
-﻿using FunnyVersityDeluxe.Controllers.Courses;
-using FunnyVersityDeluxe.Controllers.Professors;
+﻿
+using FunnyVersityDeluxe.API.Controllers.Courses;
+using FunnyVersityDeluxe.API.Controllers.Professors;
 using FVD.Services;
 using FVD.Services.Interfaces;
 using Microsoft.AspNetCore.Builder;

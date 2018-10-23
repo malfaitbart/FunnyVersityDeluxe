@@ -12,6 +12,18 @@ namespace FVD.Domain
         public string Category { get;  set; }
         public int ProfessorID { get;  set; }
 
+        private static int CountID;
+
+        public Course(string name, double studyPoints, string category, int professorID)
+        {
+            ID = CountID;
+            Name = name;
+            StudyPoints = studyPoints;
+            Category = category;
+            ProfessorID = professorID;
+            CountID++;
+        }
+
         public Course(int iD, string name, double studyPoints, string category, int professorID)
         {
             ID = iD;

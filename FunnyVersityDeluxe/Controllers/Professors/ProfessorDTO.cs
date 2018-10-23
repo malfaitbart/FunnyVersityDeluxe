@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace FunnyVersityDeluxe.Controllers.Professors
+namespace FunnyVersityDeluxe.API.Controllers.Professors
 {
     public class ProfessorDTO
     {

@@ -3,7 +3,8 @@ using FVD.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
-namespace FunnyVersityDeluxe.Controllers.Professors
+
+namespace FunnyVersityDeluxe.API.Controllers.Professors
 {
     [Route("api/[controller]")]
     [ApiController]

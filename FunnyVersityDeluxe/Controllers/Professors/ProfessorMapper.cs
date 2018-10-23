@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace FunnyVersityDeluxe.Controllers.Professors
+namespace FunnyVersityDeluxe.API.Controllers.Professors
 {
     public class ProfessorMapper
     {

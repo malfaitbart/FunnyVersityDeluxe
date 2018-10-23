@@ -15,7 +15,6 @@ D:\SwitchFully\FunnyVersityDeluxe\FVD.Domain\bin\Debug\netcoreapp2.1\FVD.Domain.
 D:\SwitchFully\FunnyVersityDeluxe\FVD.Domain\bin\Debug\netcoreapp2.1\FVD.Domain.pdb
 D:\SwitchFully\FunnyVersityDeluxe\FVD.Domain\bin\Debug\netcoreapp2.1\Microsoft.EntityFrameworkCore.dll
 D:\SwitchFully\FunnyVersityDeluxe\FVD.Domain\bin\Debug\netcoreapp2.1\Microsoft.EntityFrameworkCore.xml
-D:\SwitchFully\FunnyVersityDeluxe\FVD.Domain\obj\Debug\netcoreapp2.1\FVD.Domain.csprojAssemblyReference.cache
 D:\SwitchFully\FunnyVersityDeluxe\FVD.Domain\obj\Debug\netcoreapp2.1\FVD.Domain.csproj.CoreCompileInputs.cache
 D:\SwitchFully\FunnyVersityDeluxe\FVD.Domain\obj\Debug\netcoreapp2.1\FVD.Domain.AssemblyInfoInputs.cache
 D:\SwitchFully\FunnyVersityDeluxe\FVD.Domain\obj\Debug\netcoreapp2.1\FVD.Domain.AssemblyInfo.cs

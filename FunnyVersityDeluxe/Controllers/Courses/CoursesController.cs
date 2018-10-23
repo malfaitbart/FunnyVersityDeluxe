@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 
-namespace FunnyVersityDeluxe.Controllers.Courses
+namespace FunnyVersityDeluxe.API.Controllers.Courses
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -41,9 +41,13 @@ namespace FunnyVersityDeluxe.Controllers.Courses
         }
 
         [HttpPost]
-        public ActionResult<CourseDTO> CreateProfessor([FromBody] CourseDTO courseToCreate)
+        public ActionResult<CourseDTO> CreateProfessor([FromBody] CourseDTO_Create courseToCreate)
         {
             var input = courseService.CreateCourse(courseToCreate.Name, courseToCreate.StudyPoints, courseToCreate.Category, courseToCreate.ProfessorID);
+            if (input == null)
+            {
+                return NotFound();
+            }
             return CreatedAtRoute("GetCourse", new { id = input.ID }, courseMapper.ToDTO(input));
         }
 

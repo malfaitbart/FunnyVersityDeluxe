@@ -1,3 +1,7 @@
+D:\SwitchFully\FunnyVersityDeluxe\FVD.Tests\obj\Debug\netcoreapp2.1\FVD.Tests.csprojAssemblyReference.cache
+D:\SwitchFully\FunnyVersityDeluxe\FVD.Tests\obj\Debug\netcoreapp2.1\FVD.Tests.csproj.CoreCompileInputs.cache
+D:\SwitchFully\FunnyVersityDeluxe\FVD.Tests\obj\Debug\netcoreapp2.1\FVD.Tests.AssemblyInfoInputs.cache
+D:\SwitchFully\FunnyVersityDeluxe\FVD.Tests\obj\Debug\netcoreapp2.1\FVD.Tests.AssemblyInfo.cs
 D:\SwitchFully\FunnyVersityDeluxe\FVD.Tests\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 D:\SwitchFully\FunnyVersityDeluxe\FVD.Tests\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
 D:\SwitchFully\FunnyVersityDeluxe\FVD.Tests\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
@@ -12,10 +16,6 @@ D:\SwitchFully\FunnyVersityDeluxe\FVD.Tests\bin\Debug\netcoreapp2.1\FVD.Services
 D:\SwitchFully\FunnyVersityDeluxe\FVD.Tests\bin\Debug\netcoreapp2.1\FunnyVersityDeluxe.API.pdb
 D:\SwitchFully\FunnyVersityDeluxe\FVD.Tests\bin\Debug\netcoreapp2.1\FVD.Services.pdb
 D:\SwitchFully\FunnyVersityDeluxe\FVD.Tests\bin\Debug\netcoreapp2.1\FVD.Domain.pdb
-D:\SwitchFully\FunnyVersityDeluxe\FVD.Tests\obj\Debug\netcoreapp2.1\FVD.Tests.csprojAssemblyReference.cache
-D:\SwitchFully\FunnyVersityDeluxe\FVD.Tests\obj\Debug\netcoreapp2.1\FVD.Tests.csproj.CoreCompileInputs.cache
-D:\SwitchFully\FunnyVersityDeluxe\FVD.Tests\obj\Debug\netcoreapp2.1\FVD.Tests.AssemblyInfoInputs.cache
-D:\SwitchFully\FunnyVersityDeluxe\FVD.Tests\obj\Debug\netcoreapp2.1\FVD.Tests.AssemblyInfo.cs
 D:\SwitchFully\FunnyVersityDeluxe\FVD.Tests\obj\Debug\netcoreapp2.1\FVD.Tests.csproj.CopyComplete
 D:\SwitchFully\FunnyVersityDeluxe\FVD.Tests\obj\Debug\netcoreapp2.1\FVD.Tests.dll
 D:\SwitchFully\FunnyVersityDeluxe\FVD.Tests\obj\Debug\netcoreapp2.1\FVD.Tests.pdb

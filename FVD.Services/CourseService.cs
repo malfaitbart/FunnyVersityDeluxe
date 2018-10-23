@@ -7,49 +7,52 @@ namespace FVD.Services
 {
     public class CourseService : ICourseService
     {
-        private readonly List<Course> courses;
-
         public CourseService()
         {
-            this.courses = new List<Course>() {
-                {new Course(1, "class01", 12D, "math", 1) },
-                {new Course(2, "hoofdsteden", 5.2, "aardrijkskunde", 3) }
-            };
         }
 
         public ICollection<Course> GetAllCourses()
         {
-            return courses;
+            return DB_Courses.courses;
         }
 
         public Course GetCourseByID(int id)
         {
-            if (!courses.Where(item => item.ID == id).Any())
+            if (!DB_Courses.courses.Where(item => item.ID == id).Any())
             {
                 return null;
             }
-            Course course = courses.Where(item => item.ID == id).First();
+            Course course = DB_Courses.courses.Where(item => item.ID == id).First();
             return course;
         }
 
         public Course UpdateCourse(int id, string name, double studyPoints, string category, int professorID)
         {
-            var course = courses.Where(item => item.ID == id).First();
-            courses[id - 1] = new Course(id, name, studyPoints, category, professorID);
-            return courses[id - 1];
+            if (!DB_Professors.professors.Where(prof => prof.ID == professorID).Any())
+            {
+                return null;
+            }
+
+            var course = DB_Courses.courses.Where(item => item.ID == id).First();
+            DB_Courses.courses[id - 1] = new Course(id, name, studyPoints, category, professorID);
+            return DB_Courses.courses[id - 1];
         }
 
         public Course CreateCourse(string name, double studyPoints, string category, int professorID)
         {
-            var course = new Course(courses.Count + 1, name, studyPoints, category, professorID);
-            courses.Add(course);
+            if(!DB_Professors.professors.Where(prof => prof.ID == professorID).Any())
+            {
+                return null;
+            }
+            var course = new Course(name, studyPoints, category, professorID);
+            DB_Courses.courses.Add(course);
             return course;
         }
 
         public string DeleteCourse(int id)
         {
-            Course course = courses.Where(item => item.ID == id).First();
-            courses.Remove(course);
+            Course course = DB_Courses.courses.Where(item => item.ID == id).First();
+            DB_Courses.courses.Remove(course);
             return "OK";
         }
 
