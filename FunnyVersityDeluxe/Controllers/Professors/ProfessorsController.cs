@@ -1,4 +1,5 @@
-﻿using FVD.Services.Interfaces;
+﻿using FunnyVersityDeluxe.API.Controllers.Professors;
+using FVD.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -41,7 +42,7 @@ namespace FunnyVersityDeluxe.Controllers.Professors
         }
 
         [HttpPost]
-        public ActionResult<ProfessorDTO> CreateProfessor([FromBody] ProfessorDTO professorToCreate)
+        public ActionResult<ProfessorDTO> CreateProfessor([FromBody] ProfessorDTO_Create professorToCreate)
         {
             var input = professorService.CreateProfessor(professorToCreate.FirstName, professorToCreate.LastName);
             return CreatedAtRoute("GetProfessor", new { id = input.ID }, professorMapper.ToDTO(input));
@@ -56,6 +57,7 @@ namespace FunnyVersityDeluxe.Controllers.Professors
                 return NotFound();
             }
             professorService.UpdateProfessor(professorToUpdate.ID, professorToUpdate.FirstName, professorToUpdate.LastName);
+            professor = professorService.GetProfessorById(professorToUpdate.ID);
             return NoContent();
         }
 
