@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace FunnyVersityDeluxe.API.Controllers.Professors
 {
-	//[Authorize]
+	[Authorize]
 	[Route("api/[controller]")]
 	[ApiController]
 	public class ProfessorsController : ControllerBase
@@ -19,6 +19,7 @@ namespace FunnyVersityDeluxe.API.Controllers.Professors
 			this.professorMapper = professorMapper;
 		}
 
+		//[Authorize(Roles = "Admin")]
 		[HttpGet]
 		public ActionResult<IEnumerable<ProfessorDTO>> GetAll()
 		{
@@ -31,7 +32,7 @@ namespace FunnyVersityDeluxe.API.Controllers.Professors
 			return Ok(professorDTOs);
 		}
 
-		[Authorize(Roles = "Admin")]
+		//[Authorize(Roles = "Admin")]
 		[HttpGet("{ID}", Name = "GetProfessor")]
 		public ActionResult<ProfessorDTO> GetProfessorByID(int id)
 		{
@@ -43,7 +44,7 @@ namespace FunnyVersityDeluxe.API.Controllers.Professors
 			return Ok(professorMapper.ToDTO(result));
 		}
 
-		[Authorize(Roles = "Admin")]
+		//[Authorize(Roles = "Admin")]
 		[HttpPost]
 		public ActionResult<ProfessorDTO> CreateProfessor([FromBody] ProfessorDTO_Create professorToCreate)
 		{
@@ -51,7 +52,7 @@ namespace FunnyVersityDeluxe.API.Controllers.Professors
 			return CreatedAtRoute("GetProfessor", new { id = input.ID }, professorMapper.ToDTO(input));
 		}
 
-		[Authorize(Roles = "Admin")]
+		//[Authorize(Roles = "Admin")]
 		[HttpPut]
 		public IActionResult UpdateProfessor([FromBody] ProfessorDTO professorToUpdate)
 		{
@@ -65,7 +66,7 @@ namespace FunnyVersityDeluxe.API.Controllers.Professors
 			return NoContent();
 		}
 
-		[Authorize(Roles = "Admin")]
+		//[Authorize(Roles = "Admin")]
 		[HttpDelete("{ID}")]
 		public IActionResult DeleteProfessor(int id)
 		{

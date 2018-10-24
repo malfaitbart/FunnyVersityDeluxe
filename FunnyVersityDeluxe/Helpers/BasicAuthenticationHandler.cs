@@ -16,16 +16,17 @@ namespace FunnyVersityDeluxe.API.Helpers
 {
 	public class BasicAuthenticationHandler : AuthenticationHandler<AuthenticationSchemeOptions>
 	{
-		private readonly IUserService _userService;
+		private readonly IUserService userService;
 
-		public BasicAuthenticationHandler(IOptionsMonitor<AuthenticationSchemeOptions> options,
+		public BasicAuthenticationHandler(
+			IOptionsMonitor<AuthenticationSchemeOptions> options,
 			ILoggerFactory logger,
 			UrlEncoder encoder,
 			ISystemClock clock,
 			IUserService userService)
 			: base(options, logger, encoder, clock)
 		{
-			_userService = userService;
+			this.userService = userService;
 		}
 
 		protected override async Task<AuthenticateResult> HandleAuthenticateAsync()
@@ -41,7 +42,8 @@ namespace FunnyVersityDeluxe.API.Helpers
 				var credentials = Encoding.UTF8.GetString(credentialBytes).Split(':');
 				var username = credentials[0];
 				var password = credentials[1];
-				user = await _userService.Authenticate(username, password);
+
+				user = await userService.Authenticate(username, password);
 			}
 			catch
 			{
@@ -51,11 +53,14 @@ namespace FunnyVersityDeluxe.API.Helpers
 			if (user == null)
 				return AuthenticateResult.Fail("Invalid Username or Password");
 
-			var claims = new[] {
+
+
+			var claims = new List<Claim> {
 				new Claim(ClaimTypes.NameIdentifier, user.UserName),
-				new Claim(ClaimTypes.Name, user.UserName),
-				new Claim(ClaimTypes.Role, user.Role.ToString())
+				new Claim(ClaimTypes.Name, user.UserName)
+				//new Claim(ClaimTypes.Role, user.Role.ToString())
 			};
+
 			var identity = new ClaimsIdentity(claims, Scheme.Name);
 			var principal = new ClaimsPrincipal(identity);
 			var ticket = new AuthenticationTicket(principal, Scheme.Name);
