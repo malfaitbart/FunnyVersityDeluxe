@@ -2421,6 +2421,14 @@
           "FunnyVersityDeluxe.API.dll": {}
         }
       },
+      "FVD.Data/1.0.0": {
+        "dependencies": {
+          "FVD.Domain": "1.0.0"
+        },
+        "runtime": {
+          "FVD.Data.dll": {}
+        }
+      },
       "FVD.Domain/1.0.0": {
         "runtime": {
           "FVD.Domain.dll": {}
@@ -2428,6 +2436,7 @@
       },
       "FVD.Services/1.0.0": {
         "dependencies": {
+          "FVD.Data": "1.0.0",
           "FVD.Domain": "1.0.0"
         },
         "runtime": {
@@ -3675,6 +3684,11 @@
       "hashPath": "xunit.runner.visualstudio.2.4.0.nupkg.sha512"
     },
     "FunnyVersityDeluxe.API/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FVD.Data/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

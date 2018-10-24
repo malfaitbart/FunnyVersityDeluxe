@@ -1,4 +1,5 @@
-﻿using FVD.Domain;
+﻿using FVD.Data;
+using FVD.Domain;
 using FVD.Services.Interfaces;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,7 +19,7 @@ namespace FVD.Services
 
         public Course GetCourseByID(int id)
         {
-            if (!DB_Courses.courses.Where(item => item.ID == id).Any())
+            if (!DB_Courses.courses.Any(item => item.ID == id))
             {
                 return null;
             }

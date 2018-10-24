@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FVD.Services", "FVD.Service
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FVD.Domain", "FVD.Domain\FVD.Domain.csproj", "{F8F421A3-A3D6-46E1-AB84-43709CE05B30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FVD.Tests", "FVD.Tests\FVD.Tests.csproj", "{8F479E31-7350-4A07-9157-3C90FA71E600}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FVD.Tests", "FVD.Tests\FVD.Tests.csproj", "{8F479E31-7350-4A07-9157-3C90FA71E600}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FVD.Data", "FVD.Data\FVD.Data.csproj", "{97C573ED-BEFC-4ECA-9F00-C2D4CD616A56}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{8F479E31-7350-4A07-9157-3C90FA71E600}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F479E31-7350-4A07-9157-3C90FA71E600}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F479E31-7350-4A07-9157-3C90FA71E600}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97C573ED-BEFC-4ECA-9F00-C2D4CD616A56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97C573ED-BEFC-4ECA-9F00-C2D4CD616A56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97C573ED-BEFC-4ECA-9F00-C2D4CD616A56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97C573ED-BEFC-4ECA-9F00-C2D4CD616A56}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

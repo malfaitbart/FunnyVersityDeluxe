@@ -8,11 +8,20 @@
     ".NETCoreApp,Version=v2.1": {
       "FVD.Services/1.0.0": {
         "dependencies": {
+          "FVD.Data": "1.0.0",
           "FVD.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "2.1.1.0"
         },
         "runtime": {
           "FVD.Services.dll": {}
+        }
+      },
+      "FVD.Data/1.0.0": {
+        "dependencies": {
+          "FVD.Domain": "1.0.0"
+        },
+        "runtime": {
+          "FVD.Data.dll": {}
         }
       },
       "FVD.Domain/1.0.0": {
@@ -32,6 +41,11 @@
   },
   "libraries": {
     "FVD.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FVD.Data/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

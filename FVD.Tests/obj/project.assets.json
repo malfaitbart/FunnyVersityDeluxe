@@ -3325,6 +3325,19 @@
           "bin/placeholder/FunnyVersityDeluxe.API.dll": {}
         }
       },
+      "FVD.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "FVD.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FVD.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FVD.Data.dll": {}
+        }
+      },
       "FVD.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
@@ -3339,6 +3352,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
+          "FVD.Data": "1.0.0",
           "FVD.Domain": "1.0.0"
         },
         "compile": {
@@ -9646,6 +9660,11 @@
       "type": "project",
       "path": "../FunnyVersityDeluxe/FunnyVersityDeluxe.API.csproj",
       "msbuildProject": "../FunnyVersityDeluxe/FunnyVersityDeluxe.API.csproj"
+    },
+    "FVD.Data/1.0.0": {
+      "type": "project",
+      "path": "../FVD.Data/FVD.Data.csproj",
+      "msbuildProject": "../FVD.Data/FVD.Data.csproj"
     },
     "FVD.Domain/1.0.0": {
       "type": "project",

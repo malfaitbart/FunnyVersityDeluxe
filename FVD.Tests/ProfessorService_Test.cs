@@ -26,7 +26,7 @@ namespace FVD.Tests
             //When
             var actual = professorService.GetProfessorById(1);
             //Then
-            Assert.Equal("Barabas", actual.LastName);
+            Assert.Equal("Gobelijn", actual.LastName);
         }
 
         [Fact]
@@ -72,7 +72,7 @@ namespace FVD.Tests
             professorService.DeleteProfessor(1);
             var actual = professorService.GetAllProfessors();
             //Then
-            Assert.Equal(2, actual.Count);
+            Assert.Equal(3, actual.Count);
         }
     }
 }

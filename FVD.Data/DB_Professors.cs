@@ -1,6 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using FVD.Domain;
+using System.Collections.Generic;
 
-namespace FVD.Domain
+namespace FVD.Data
 {
     public static class DB_Professors
     {

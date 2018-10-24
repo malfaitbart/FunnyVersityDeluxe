@@ -28,7 +28,7 @@ namespace FVD.Tests
             //When
             var actual = courseService.GetCourseByID(1);
             //Then
-            Assert.Equal("class01", actual.Name);
+            Assert.Equal("hoofdsteden", actual.Name);
         }
 
         [Fact]
@@ -48,7 +48,7 @@ namespace FVD.Tests
             //Given
             var courseService = new CourseService();
             //When
-            var actual = courseService.CreateCourse("test", 1.5, "world", 3);
+            var actual = courseService.CreateCourse("test", 1.5, "world", 1);
             //Then
             Assert.Equal("test", actual.Name);
         }

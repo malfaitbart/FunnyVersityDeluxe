@@ -1,7 +1,9 @@
 D:\SwitchFully\FunnyVersityDeluxe\FVD.Services\bin\Debug\netcoreapp2.1\FVD.Services.deps.json
 D:\SwitchFully\FunnyVersityDeluxe\FVD.Services\bin\Debug\netcoreapp2.1\FVD.Services.dll
 D:\SwitchFully\FunnyVersityDeluxe\FVD.Services\bin\Debug\netcoreapp2.1\FVD.Services.pdb
+D:\SwitchFully\FunnyVersityDeluxe\FVD.Services\bin\Debug\netcoreapp2.1\FVD.Data.dll
 D:\SwitchFully\FunnyVersityDeluxe\FVD.Services\bin\Debug\netcoreapp2.1\FVD.Domain.dll
+D:\SwitchFully\FunnyVersityDeluxe\FVD.Services\bin\Debug\netcoreapp2.1\FVD.Data.pdb
 D:\SwitchFully\FunnyVersityDeluxe\FVD.Services\bin\Debug\netcoreapp2.1\FVD.Domain.pdb
 D:\SwitchFully\FunnyVersityDeluxe\FVD.Services\obj\Debug\netcoreapp2.1\FVD.Services.csprojAssemblyReference.cache
 D:\SwitchFully\FunnyVersityDeluxe\FVD.Services\obj\Debug\netcoreapp2.1\FVD.Services.csproj.CoreCompileInputs.cache
